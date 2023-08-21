@@ -29,7 +29,7 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 
 #### Ongoing workflow
 
-We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` (on the original repo, not on your fork) will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch.
+We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` (on the original/upstream repo, not on your fork) will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch.
 
 1. Create a new feature branch for whatever feature you want to build, and add commits following the same practices that you learned about in the [branching section of our Revisiting Rock Paper Scissors lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors#using-branches).
 2. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `main` branch is probably out of date.  Fetch the most updated copy using `git fetch upstream`.
